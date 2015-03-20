@@ -1,0 +1,23 @@
+{
+  "name": "demoTibo",
+  "version": "0.0.1",
+  "description": "Demo pour tibo",
+  "main": "test.js",
+  "scripts": {
+    "devServer": "node_modules/.bin/supervisor test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-minify-html": "^1.0.1",
+    "gulp-rev": "^3.0.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-usemin": "^0.3.11",
+    "supervisor": "^0.6.0"
+  }
+}
